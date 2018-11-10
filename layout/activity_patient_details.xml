@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/insulin"
+    tools:context=".patient_details">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:id="@+id/btn_R"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="87dp"
+        android:text="VIEWDATA" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:text="SUBMIT"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txt_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLOCK" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <EditText
+        android:id="@+id/etage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etname"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="AGE"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/etheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:hint="Height"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <EditText
+        android:id="@+id/etweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etheight"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/etbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etweight"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="BLOODGROUP"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/etsugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etbg"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="SUGERLEVEL"
+        android:inputType="textPersonName"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
